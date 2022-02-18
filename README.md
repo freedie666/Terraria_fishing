@@ -11,11 +11,37 @@ Fishing is an activity accomplished by using a Fishing Pole at a body of liquid 
 
 We need to take screenshots of gameplay and detect movement of the fishing line. Also there is no need for whole screenshot, so big chunk can be cropped.
 
-![Terraria screenshot_cropped](https://github.com/freedie666/Terraria_fishing/blob/master/images/Screen_cropped.png?raw=true)
+
+<p align="center">
+  <img src="https://github.com/freedie666/Terraria_fishing/blob/master/images/Screen_cropped.jpg" />
+</p>
+
+Next step is to extract fishing line from the image. We have to know RGB value of the fishing line, in this case values are int the table below.
+
+<div align="center">
+<table>
+<thead>
+<tr>
+<th>Color</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Red</td>
+<td align="right">249</td>
+</tr>
+<tr>
+<td>Green</td>
+<td align="right">86</td>
+</tr>
+<tr>
+<td>Blue</td>
+<td align="right">56</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
-
-
-
-
-
+Now we can simply 
