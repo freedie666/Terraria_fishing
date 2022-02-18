@@ -44,4 +44,6 @@ Next step is to extract fishing line from the image. We have to know RGB value o
 </div>
 
 
-Now we can simply 
+Now we can simply separate pixels with this value from pixels with other RGB values. There is also some buffer in RGB range providing room for color differences. (For example buffer with size of 10 will include pixels that have Green value of 86 +- 10. Same goes for Red and Blue)
+
+Pixels that are in desired range are set to white (255,255,255) others are set to black (0,0,0).
