@@ -1,2 +1,2 @@
-# Terraria_fishing
+# Terraria fishing bot
 Fishing bot for terraria
