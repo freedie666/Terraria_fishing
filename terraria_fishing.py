@@ -1,8 +1,13 @@
+# Fishing bot for terraia
+# Needs to be run as administrator
+
 from PIL import Image,ImageGrab,ImageChops,ImageStat
 import beepy
 import time
 import keyboard
 import pyautogui
+
+# program and
 
 saving_images = False
 
