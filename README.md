@@ -1,5 +1,5 @@
 # Terraria fishing bot
-Automated tedious fishing in terraria
+Automated tedious fishing in terraria with Python using PIL
 
 ## What is fishing in terraria
 
